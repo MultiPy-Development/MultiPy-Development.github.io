@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/static/styles/index.min.css" rel="stylesheet">
-	<title>MultiPy Development</title>
-
-	<!-- initialize py-script -->
-	<link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
-	<script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script> 
-
+	<link href="/static/styles/index.min.css" rel="stylesheet">
+	<title>Главная | MPD</title>
 </head>
 <body>
-    <nav>
-        <div class="main-nav">
-            <h1><a href="/" style="font-size: inherit;color: var(--color);text-decoration: none;">MPD</a></h1>
-            <div class="anchors">
-                <a href="#original">Original</a>
-                <a href="#beta">Beta</a>
-                <a href="#lite">Lite</a>
-            </div>
-        </div>
-        <div class="second-nav">
-            <a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io" target="_blank">Исходный код на GitHub</a>
-        </div>
-    </nav>
-    <br>
-    <div class="main">
-        <div class="mpy_block original" id="original">
-            <h2>MultiPy Original</h2>
-            <p>— Оригинальный MultiPy</p>
-            <h3>Релизы:</h3>
-            <div class="releases">
-                <p>скоро™</p>
-            </div>
-        </div>
-        <div class="mpy_block beta" id="beta">
-            <h2>MultiPy Beta</h2>
-            <p>— Бета версия MultiPy, в которой наш кот(и не только кот), эксперементирует.</p>
-            <h3>Релизы:</h3>
-            <div class="releases">
-                <p>скоро™</p>
-            </div>
-        </div>
-        <div class="mpy_block lite" id="lite">
-            <h2>MultiPy Lite</h2>
-            <p>— "Облегченная" версия MultiPy, которая работает в браузере.</p>
-            <h3>Релизы:</h3>
-            <div class="releases">
-                <p>скоро™</p>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <p style="text-align: center;"><a href="https://github.com/MultiPy-Development/">MultiPy-Development</a> (c) 2023, open-source на <a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io/">GitHub</a></p>
-    </footer>
+	<nav>
+		<div class="main-nav">
+			<h1><a href="/" style="font-size: inherit;color: var(--color);text-decoration: none;">MPD</a></h1>
+			<div class="anchors">
+				<a href="#original">Original</a>
+				<a href="#beta">Beta</a>
+				<a href="#lite">Lite</a>
+			</div>
+		</div>
+		<div class="second-nav">
+			<a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io" target="_blank">Исходный код на GitHub</a>
+		</div>
+	</nav>
+	<br>
+	<div class="main">
+		<h1 style="text-align: center;">MultiPy Development</h1>
+		<p style="text-align: center;">Центр загрузок MultiPy</p>
+		<div class="mpy_block original" id="original">
+			<h2 style="display: flex; align-items: center;">MultiPy Original <span class="badge desktop"></span></h2>
+			<p>— Оригинальный MultiPy</p>
+			<h3>Релизы:</h3>
+			<div class="releases">
+				<p>скоро™</p>
+			</div>
+		</div>
+		<div class="mpy_block beta" id="beta">
+			<h2 style="display: flex; align-items: center;">MultiPy Beta <span class="badge desktop"></span></h2>
+			<p>— Бета версия MultiPy, в которой проводятся эксперименты.</p>
+			<h3>Релизы:</h3>
+			<div class="releases">
+				<p>скоро™</p>
+			</div>
+		</div>
+		<a href="lite" id="lite" class="mpy_block lite" style="color: inherit;text-decoration: inherit;">
+			<h2 style="display: flex; align-items: center;">MultiPy Lite <span class="badge web"></span></h2>
+			<p>— "Облегченная" версия MultiPy, которая работает в браузере.</p>
+			<p style="color: var(--link-color)">Запустить -></p>
+		</a>
+	</div>
+	<footer>
+		<p style="text-align: center;"><a href="https://github.com/MultiPy-Development/">MultiPy-Development</a> (c) 2023, open-source на <a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io/">GitHub</a></p>
+	</footer>
 </body>
 </html>
