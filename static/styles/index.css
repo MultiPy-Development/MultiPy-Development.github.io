@@ -1,0 +1,129 @@
+/* fonts */
+/* inter-regular - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/static/fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/static/fonts/inter-v13-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/static/fonts/inter-v13-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/static/fonts/inter-v13-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* nunito-sans-regular - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/static/fonts/nunito-sans-v15-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* nunito-sans-700 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/static/fonts/nunito-sans-v15-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* nunito-sans-800 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/static/fonts/nunito-sans-v15-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* nunito-sans-900 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	src: url('/static/fonts/nunito-sans-v15-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--color: #fff;
+	--bg: #151515;
+	--secondary-bg: #222;
+	--link-color: #2acaea;
+}
+body {
+	background: var(--bg);
+	color: var(--color);
+	font-family: 'Inter', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito Sans', sans-serif;
+}
+a {
+	color: var(--link-color);
+}
+p, a, button {
+	font-size: 15px;
+}
+nav, .main-nav {
+	display: flex;
+	align-items: center;
+}
+nav, footer {
+	padding: 10px;
+	background: var(--secondary-bg);
+	justify-content: space-between;
+}
+footer {
+	margin-top: 40px;
+}
+nav .anchors {
+	margin-left: 10px;
+}
+.mpy_block {
+	background: var(--secondary-bg);
+	padding: 10px;
+	width: 60%;
+	margin: 10px auto;
+	border-radius: 4px;
+}
+.mpy_block.original {
+	background: linear-gradient(-130deg, var(--secondary-bg) 50%, #33d17a 100%);
+}
+.mpy_block.beta {
+	background: linear-gradient(-130deg, var(--secondary-bg) 50%, #f5c211 100%);
+}
+.mpy_block.lite {
+	background: linear-gradient(-130deg, var(--secondary-bg) 50%, #9551a7 100%);
+}

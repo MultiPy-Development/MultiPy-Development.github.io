@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/styles/index.css" rel="stylesheet">
 	<title>MultiPy Development</title>
 
 	<!-- initialize py-script -->
@@ -12,35 +13,47 @@
 </head>
 <body>
     <nav>
-        <h1>Mpy Development</h1>
+        <div class="main-nav">
+            <h1><a href="/" style="font-size: inherit;color: var(--color);text-decoration: none;">MPD</a></h1>
+            <div class="anchors">
+                <a href="#original">Original</a>
+                <a href="#beta">Beta</a>
+                <a href="#lite">Lite</a>
+            </div>
+        </div>
+        <div class="second-nav">
+            <a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io" target="_blank">Исходный код на GitHub</a>
+        </div>
     </nav>
-
+    <br>
     <div class="main">
-        <div class="mpy_block__original">
-            <h2>Mpy Original</h2>
-            <p>— оригинальный multipy</p>
+        <div class="mpy_block original" id="original">
+            <h2>MultiPy Original</h2>
+            <p>— оригинальный MultiPy</p>
+            <h3>Релизы:</h3>
             <div class="releases">
-
+                <p>скоро™</p>
             </div>
         </div>
-        <div class="mpy_block__beta">
-            <h2>Mpy Beta</h2>
-            <p>— Бета версия multipy, в которой наш кот(и не только кот), эксперементирует.</p>
+        <div class="mpy_block beta" id="beta">
+            <h2>MultiPy Beta</h2>
+            <p>— Бета версия MultiPy, в которой наш кот(и не только кот), эксперементирует.</p>
+            <h3>Релизы:</h3>
             <div class="releases">
-
+                <p>скоро™</p>
             </div>
         </div>
-        <div class="mpy_block__lite">
-            <h2>Mpy Lite</h2>
-            <p>— "Облегченная" версия multipy, которая работает в браузере.</p>
+        <div class="mpy_block lite" id="lite">
+            <h2>MultiPy Lite</h2>
+            <p>— "Облегченная" версия MultiPy, которая работает в браузере.</p>
+            <h3>Релизы:</h3>
             <div class="releases">
-
+                <p>скоро™</p>
             </div>
         </div>
     </div>
-
     <footer>
-        <p>MultiPy-Development (c) 2023, open-source on <a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io/">GitHub</a></p>
+        <p style="text-align: center;"><a href="https://github.com/MultiPy-Development/">MultiPy-Development</a> (c) 2023, open-source on <a href="https://github.com/MultiPy-Development/MultiPy-Development.github.io/">GitHub</a></p>
     </footer>
 </body>
 </html>
