@@ -1,8 +1,8 @@
 # MultiPy web-site
-## about project
-this is a project where you can learn more about multipy and download the latest versions or releases
+## об проекте
+это проект который поможет вам узнать больше об mpy и установить его последние версии и релизы.
 
-link to website: https://MultiPy-Development.github.io
+ссылка на веб-сайт: https://MultiPy-Development.github.io
 
-## creators
+## создатели
 @rodionmern @m1cro-cat @MystieHum
