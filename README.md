@@ -8,4 +8,4 @@ link to web-site : https://MultiPy-Development.github.io
 
 ## creators
 
-@rodionmern @m1cro_cat @MystieHub
+@rodionmern @m1cro_cat @MystieHum
