@@ -1,8 +1,8 @@
-# MultiPy web-site
+# MultiPy website
 ## Об проекте
-это проект который поможет вам узнать больше об MultiPy и установить его последние версии и релизы, протестировать его в браузере
+Это проект который поможет вам узнать больше об MultiPy и установить его последние версии и релизы, протестировать его в браузере
 
-Ссылка на веб-сайт: https://MultiPy-Development.github.io
+Ссылка на вебсайт: https://MultiPy-Development.github.io
 
 ## Создатели
-@rodionmern @m1cro-cat @MystieHum
+[@rodionmern](https://github.com/rodionmern) [@m1cro-cat](https://github.com/m1cro-cat) [@MystieHum](https://github.com/MystieHum)
