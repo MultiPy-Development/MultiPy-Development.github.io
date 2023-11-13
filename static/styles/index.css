@@ -81,6 +81,7 @@
 	--bg: #151515;
 	--secondary-bg: #222;
 	--link-color: #2acaea;
+	--link-hover-color: #60e5ff;
 }
 body {
 	background: var(--bg);
@@ -92,6 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {
 	color: var(--link-color);
+}
+a:hover {
+	color: var(--link-hover-color);
 }
 p, a, button {
 	font-size: 15px;
@@ -117,6 +121,12 @@ nav .anchors {
 	width: 60%;
 	margin: 10px auto;
 	border-radius: 4px;
+}
+.mpy_block, .mpy_block:hover {
+	transition: .2s;
+}
+.mpy_block:hover {
+	box-shadow: 0px 0px 10px 1px #000000;
 }
 .mpy_block.original {
 	background: linear-gradient(-130deg, var(--secondary-bg) 50%, #33d17a 100%);
